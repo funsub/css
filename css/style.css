@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	text-align: center;
+	margin-top: 100px; 
+	background-color: #ecdcc7e8;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	
+}
+.btn{
+	text-transform: capitalize;
+	color: #f1e5e5f2;
+	background-color: #92777d;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 20px 40px;
+	margin: 10px;
+}
+.btn:hover{
+    border-color: rgb(51, 183, 235);
+    color: white;
+    background-color: #b94072;  
+}
